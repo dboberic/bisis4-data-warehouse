@@ -7,6 +7,8 @@ bin/
 
 # Package Files #
 *.jar
+!libs/*.jar
+!compile-libs/*.jar
 *.war
 *.ear
 
