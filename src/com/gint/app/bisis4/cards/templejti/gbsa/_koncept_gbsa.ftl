@@ -1311,7 +1311,7 @@
      ><#else
      	><#assign napS = napS +".&nbsp;-&nbsp;"
      ></#if
-	 ><#assign napS = napS + "\x0418\x043C\x0430 \x0438\x0437\x0434\x0430\x045A\x0430 \x043D\x0430 \x0434\x0440\x0443\x0433\x043E\x043C \x0458\x0435\x0437\x0438\x043A\x0443:&nbsp;"+recUtil.getSubfieldContent("453a")	 
+	 ><#assign napS = napS + "\x0418\x043C\x0430 \x0438\x0437\x0434\x0430\x045A\x0065 \x043D\x0430 \x0434\x0440\x0443\x0433\x043E\x043C \x0458\x0435\x0437\x0438\x043A\x0443:&nbsp;"+recUtil.getSubfieldContent("453a")	 
 	></#if
 	><#if (recUtil.getSubfieldContent("453x")!="")     
 	 	><#assign napS = napS + "&nbsp;=&nbsp;ISSN&nbsp;"+recUtil.getSubfieldContentx("453x")
@@ -1322,7 +1322,7 @@
      ><#else
      	><#assign napS = napS +".&nbsp;-&nbsp;"
      ></#if
-	 ><#assign napS = napS + "\x0418\x043C\x0430 \x0438\x0437\x0434\x0430\x045A\x0065 \x043D\x0430 \x0434\x0440\x0443\x0433\x043E\x043C \x0458\x0435\x0437\x0438\x043A\x0443:&nbsp;"+recUtil.getSubfieldContent("454a")	 
+	 ><#assign napS = napS + "\x0408\x0435 \x0438\x0437\x0434\x0430\x045A\x0435 \x043D\x0430 \x0434\x0440\x0443\x0433\x043E\x043C \x0458\x0435\x0437\x0438\x043A\x0443 - \x043E\x0440\x0438\x0433\x0438\x043D\x0430\x043B:&nbsp;"+recUtil.getSubfieldContent("454a")	 
 	></#if
 	><#if (recUtil.getSubfieldContent("454x")!="")     
 	 	><#assign napS = napS + "&nbsp;=&nbsp;ISSN&nbsp;"+recUtil.getSubfieldContentx("454x")
