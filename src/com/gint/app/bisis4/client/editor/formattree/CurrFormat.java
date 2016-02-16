@@ -45,7 +45,7 @@ public class CurrFormat {
         pubType = rec.getPubType();
         processType = FormatUtils.returnProcessTypeForPubtype(pubType);        
         createFormatFromRecord(rec);
-        //createFormatFromProcessType();
+        createFormatFromProcessType();
       }catch(NullPointerException ex){        
         log.fatal(ex);
       }

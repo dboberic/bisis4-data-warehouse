@@ -58,7 +58,7 @@ public class CurrRecord {
         	record.getSubfield("992b").setContent("");
         }
       }
-      //RecordUtils.addElementsFromProcessType();
+      RecordUtils.addElementsFromProcessType();
     }else{      
       pubType = CurrFormat.getPubType();
       record = new Record();

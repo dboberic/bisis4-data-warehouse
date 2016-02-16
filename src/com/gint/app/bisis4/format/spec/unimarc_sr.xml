@@ -305,6 +305,7 @@
 				<item code="m6" value="bečelor radovi"/>
 				<item code="m7" value="diplomski/završni radovi prvog stepena"/>
 				<item code="m8" value="bečelor radovi strukovnih studija"/>
+				<item code="m9" value="specijalistički radovi strukovnih studija"/>
 				<item code="n" value="zakoni"/>
 				<item code="o" value="numeričke tabele"/>
 				<item code="p" value="tehnički izveštaj"/>
